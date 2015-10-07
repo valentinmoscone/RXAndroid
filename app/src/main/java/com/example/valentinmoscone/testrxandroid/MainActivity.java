@@ -35,6 +35,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+        //This is my comment, so i can do a pull request ;)
 
         resultEmitterSubject = PublishSubject.create();
         subscription = resultEmitterSubject.asObservable()
